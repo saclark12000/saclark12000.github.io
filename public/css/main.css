@@ -15,10 +15,7 @@ html,body{
 /* Fixed Navigation Section Setup */
 
 #navbar{
-  background-image: url(../images/navback.png);
-  background-size: 400px 300px;
-  background-attachment: fixed;
-  border-bottom: 3px solid #032D43;
+  background-color: #032D43;
 }
 
 nav ul {
@@ -37,13 +34,9 @@ nav ul {
 }
   
 .navbar-button{
-  background-color: #E9E9E9;
-  padding: 0px 10px;
-  border-style: solid;
-  border-color: #032D43;
-  width: 110px;
+  color: #E9E9E9;
+  background-color: #032D43;
   text-align: center;
-  border-radius: 25px;
   -webkit-transition: color .3s; /* Safari */
   transition: color .3s;
 }
