@@ -222,6 +222,7 @@ nav ul li a {
 
 #education .info {
   margin-top: 10px;
+  margin-bottom: 5px;
   font-family: Raleway;
   font-size: 14px;
 }
@@ -328,14 +329,7 @@ nav ul li a {
   font-size: 32px;
   line-height: 64px;
   -webkit-transition: opacity .3s; /* Safari */
-  transition: opacity .3s;
-}
-
-.profile-img{
-  height: 64px;
-  width:auto;
-  -webkit-transition: opacity .3s; /* Safari */
-  transition: opacity .3s;
+  transition: opacity .3s, background-color .3s;
 }
   
 /* Credits section setup -------------------------------------------*/
@@ -442,8 +436,8 @@ nav ul li a {
     font-size: 14px;
   }
   
-  .profile-img{
-    height: 32px;
+  #contact-profiles a{
+    flex-basis: 30%;
   }
     
   }
