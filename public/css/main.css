@@ -84,6 +84,17 @@ nav ul li a {
   border-left: 3px solid #032D43;
   border-bottom: 3px solid #032D43;
 }
+
+.welcome-link{
+  text-decoration: underline;
+  color:#032D43;
+  -webkit-transition: color .3s; /* Safari */
+  transition: color .3s;
+}
+
+.welcome-link:hover{
+  color: #E9E9E9;
+}
   
 /* Projects Section Setup -------------------------------------------*/
 
